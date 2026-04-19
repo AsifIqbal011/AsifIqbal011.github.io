@@ -2488,6 +2488,15 @@ textarea.form-control {
   font-size: 80%;
   color: #F85C70;
 }
+.card a {
+    display: block;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
 
 .invalid-tooltip {
   position: absolute;
